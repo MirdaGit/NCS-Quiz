@@ -67,5 +67,5 @@ export const correctItems = persisted("correctItems", {
 	],
 	authors: new Array<string>(30),
 	names: new Array<string>(30),
-	freeSpaces: 5
+	freeSpaces: 50
 });
