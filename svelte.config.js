@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/NCS-Quiz' : ''
+			base: process.env.NODE_ENV === 'production' ? 'https://mirdagit.github.io/NCS-Quiz/' : ''
 		}
 	}
 };
