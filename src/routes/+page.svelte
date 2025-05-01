@@ -141,7 +141,7 @@
 										correctItems.set($correctItems);
 									}}
 								>
-									Skip ({$correctItems.freeSpaces} / 3)
+									Skip ({$correctItems.freeSpaces} / 5)
 								</button>
 							{/if}
 						</div>
