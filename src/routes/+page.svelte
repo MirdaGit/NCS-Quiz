@@ -69,7 +69,7 @@
 
 <div class="flex flex-col place-items-center gap-8 p-10">
 	{#if !finished}
-		<h1 class="text-6xl font-semibold text-white">Top Tobu NCS 30 kvíz</h1>
+		<h1 class="text-6xl font-semibold text-white">🐟 🔥 Top Tobu NCS 30 kvíz 🔥 🤪</h1>
 		<div class="flex w-5/6 flex-row flex-wrap gap-4">
 			{#each listItems as item, idx}
 				<div
