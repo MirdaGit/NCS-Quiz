@@ -108,6 +108,9 @@
 									}}
 								/>
 							</div>
+							<audio controls>
+								<source src={(idx + 1).toString().padStart(2, "0") + ".mp3"} type="audio/mpeg" />
+							</audio>
 						</div>
 						<div class="flex flex-col place-items-center gap-2 py-4 pr-4">
 							{#if $correctItems.correctAuthors[idx] && $correctItems.correctNames[idx]}
