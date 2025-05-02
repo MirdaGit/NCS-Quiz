@@ -16,7 +16,7 @@
 		{ authors: ["spektrem"], name: "shine", color: "#f2ea02" },
 		{ authors: ["tobu"], name: "roots", color: "#f2ea02" },
 		{ authors: ["alanwalker"], name: "force", color: "#f2ea02" },
-		{ authors: ["unknownbrain"], name: "whydoi", color: "green" },
+		{ authors: ["unknownbrain"], name: "whydoi?", color: "green" },
 		{ authors: ["jimyosef"], name: "firefly", color: "#f2ea02" },
 		{ authors: ["tobu"], name: "life", color: "#f2ea02" },
 		{ authors: ["axol", "alexskrindo"], name: "you", color: "#f2ea02" },
@@ -36,7 +36,8 @@
 	];
 
 	function checkInput(value: string, index: number, type: "authors" | "name") {
-		const input = value.trim().replace(" ", "").replace("-", "").toLowerCase();
+		const input = value.trim().replaceAll(" ", "").replaceAll("-", "").toLowerCase();
+
 		if (input === "") {
 			return;
 		}
