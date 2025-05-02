@@ -108,7 +108,7 @@
 									}}
 								/>
 							</div>
-							<audio controls>
+							<audio controls class="w-full p-1">
 								<source src={(idx + 1).toString().padStart(2, "0") + ".mp3"} type="audio/mpeg" />
 							</audio>
 						</div>
